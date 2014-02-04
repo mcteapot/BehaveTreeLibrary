@@ -49,8 +49,10 @@
     <Compile Include="BehaviorTest.cs" />
     <Compile Include="MockBehavior.cs" />
     <Compile Include="MockSelector.cs" />
+    <Compile Include="MockSequence.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SelectorTest.cs" />
+    <Compile Include="SequenceTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
