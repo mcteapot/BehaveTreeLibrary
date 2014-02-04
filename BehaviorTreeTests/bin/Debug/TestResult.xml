@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\IridiumFour\Work\Developer\BehaviorTreeLibrary\BehaviorTreeLibrary\BehaviorTreeTests\bin\Debug\BehaviorTreeTests.dll" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-02-03" time="14:41:24">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.5472" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Users\IridiumFour\Work\Developer\BehaviorTreeLibrary\BehaviorTreeLibrary\BehaviorTreeTests\bin\Debug" machine-name="IRIDIUMFOUR-PC" user="IridiumFour" user-domain="IridiumFour-PC" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\IridiumFour\Work\Developer\BehaviorTreeLibrary\BehaviorTreeLibrary\BehaviorTreeTests\bin\Debug\BehaviorTreeTests.dll" executed="True" result="Failure" success="False" time="0.088" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="BehaviorTreeTests" executed="True" result="Failure" success="False" time="0.073" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="BehaviorTest" executed="True" result="Failure" success="False" time="0.071" asserts="0">
+            <results>
+              <test-case name="BehaviorTreeTests.BehaviorTest.Initialize_DoesInitialize_Successful" executed="True" result="Error" success="False" time="0.054" asserts="1">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[at BehaviorTreeLibrary.Behavior.Tick() in C:\Users\IridiumFour\Work\Developer\BehaviorTreeLibrary\BehaviorTreeLibrary\BehaviorTreeLibrary\Behavior.cs:line 12
+at BehaviorTreeTests.BehaviorTest.Initialize_DoesInitialize_Successful() in C:\Users\IridiumFour\Work\Developer\BehaviorTreeLibrary\BehaviorTreeLibrary\BehaviorTreeTests\BehaviorTest.cs:line 17
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
